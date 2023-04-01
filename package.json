@@ -1,0 +1,15 @@
+{
+  "name": "cours1",
+  "version": "1.0.0",
+  "description": "apprentissage nodejs",
+  "main": "monServeur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodejs-cours-1"
+  },
+  "author": "RwTechnology",
+  "license": "ISC"
+}
