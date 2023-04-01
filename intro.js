@@ -41,3 +41,25 @@ console.log(__filename);
 
 //---------------------- Les modules ------------------------
 
+const etudiant=[
+    {
+        nom:"JEAN MARIE",
+        niveau: 1
+    },
+    {
+        nom:"JEAN Ralph",
+        niveau: 2
+    }
+]
+
+const cours=["Mathematiques","Geographie"]
+
+// ---------------------------- les modules integre
+const systeme=require("os")
+console.log(
+    systeme.userInfo(),
+    systeme.version(),
+    systeme.hostname()
+    );
+
+module.exports = {etudiant,cours};
