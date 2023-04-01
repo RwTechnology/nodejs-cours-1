@@ -1,3 +1,9 @@
-let nom="CHARLOTIN"
+//------------------------- declaration variable
+let name="CHARLOTIN"
+console.log(name);
 
-console.log(nom);
+//---------------------- creation fonction ------------------------
+
+function createPerson(name){
+   console.log(name);
+}
