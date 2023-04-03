@@ -11,5 +11,8 @@
     "url": "nodejs-cours-1"
   },
   "author": "RwTechnology",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
